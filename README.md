@@ -14,7 +14,7 @@ Install this repo from Unit Package Manager window, inside Unity.
     {
         protected override void Modify(AndroidManifest androidManifest)
         {
-            var elem = androidManifest.SetAttributeWithAndroidNamespace(androidManifest.ApplicationElement, "foo", "bar");
+            var value = androidManifest.SetAttributeWithAndroidNamespace(androidManifest.ApplicationElement, "foo", "bar");
         }
     }
 
