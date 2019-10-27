@@ -5,7 +5,7 @@ Utilites for hooking into AndroidManifest.xml generation.
 
 1. Get this: https://github.com/mob-sakai/UpmGitExtension
 
-2. Install this repo from Unit Package Manager window, inside Unity.
+2. Install this repo from Unity Package Manager window, inside Unity.
 
 # Usage
 
