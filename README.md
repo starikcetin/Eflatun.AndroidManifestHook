@@ -8,17 +8,19 @@ Utilites for hooking into AndroidManifest.xml generation.
 2. Install this repo from Unity Package Manager window, inside Unity.
 
 # Usage
+```cs
+using Eflatun.AndroidManifestHook;
 
-    using Eflatun.AndroidManifestHook;
-
-    public class TestManifestHook : AndroidManifestHooker
+public class TestManifestHook : AndroidManifestHooker
+{
+    protected override void Modify(AndroidManifest androidManifest)
     {
-        protected override void Modify(AndroidManifest androidManifest)
-        {
-            var value = androidManifest.SetAttributeWithAndroidNamespace(androidManifest.ApplicationElement, "foo", "bar");
-        }
+        var value = androidManifest.SetAttributeWithAndroidNamespace(androidManifest.ApplicationElement, "foo", "bar");
     }
+}
+```
 
 The code above will result in this:
-
-    <application ... android:foo="bar">
+```xml
+<application ... android:foo="bar">
+```
