@@ -1,0 +1,9 @@
+{
+  "author": "starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)",
+  "description": "Utilites for hooking into AndroidManifest.xml generation.",
+  "displayName": "Eflatun.AndroidManifestHook",
+  "license": "MIT",
+  "name": "com.eflatun.androidmanifesthook",
+  "version": "0.0.1",
+  "type": "library"
+}
