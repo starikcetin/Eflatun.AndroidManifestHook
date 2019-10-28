@@ -26,6 +26,8 @@ The code above will result in this:
 <application ... android:foo="bar">
 ```
 
+You need to create an asmdef file with only Editor platform selected for your manifest hooker scripts. Otherwise you will get build errors.
+
 ## License
 
 MIT license. Refer to the [LICENSE](/LICENSE) file.
