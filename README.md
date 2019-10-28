@@ -28,6 +28,6 @@ The code above will result in this:
 
 ## License
 
-MIT Licence. Refer to the [LICENSE](/LICENSE) file.
+MIT license. Refer to the [LICENSE](/LICENSE) file.
 
 Copyright (c) 2019 S. Tarık Çetin.
