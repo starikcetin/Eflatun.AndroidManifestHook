@@ -26,7 +26,16 @@ The code above will result in this:
 <application ... android:foo="bar">
 ```
 
-You need to create an asmdef file with only Editor platform selected for your manifest hooker scripts. Otherwise you will get build errors.
+You need to create an asmdef file with:
+
+1. only Editor platform selected 
+2. a reference to Eflatun.AndroidManifestHook asmdef
+
+for your manifest hooker scripts. Otherwise you will get build errors. 
+
+It should look like this:
+
+![asmdef screenshot](https://raw.githubusercontent.com/starikcetin/Eflatun.AndroidManifestHook/repo-res/asmdef.png)
 
 ## License
 
