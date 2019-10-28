@@ -1,13 +1,14 @@
 # Eflatun.AndroidManifestHook
 Utilites for hooking into AndroidManifest.xml generation.
 
-# Installation
+## Installation
 
 1. Get this: https://github.com/mob-sakai/UpmGitExtension
 
 2. Install this repo from Unity Package Manager window, inside Unity.
 
-# Usage
+## Usage
+
 ```cs
 using Eflatun.AndroidManifestHook;
 
@@ -24,3 +25,9 @@ The code above will result in this:
 ```xml
 <application ... android:foo="bar">
 ```
+
+## License
+
+MIT Licence. Refer to the [LICENSE](/LICENSE) file.
+
+Copyright (c) 2019 S. Tarık Çetin.
