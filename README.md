@@ -1,5 +1,5 @@
 # Eflatun.AndroidManifestHook
-Utilites for hooking into AndroidManifest.xml generation.
+Utilites for hooking into AndroidManifest.xml generation in Unity.
 
 ## Installation
 
