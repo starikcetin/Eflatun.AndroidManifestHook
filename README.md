@@ -45,4 +45,4 @@ MIT license. Refer to the [LICENSE](/LICENSE) file.
 
 Copyright (c) 2019 S. Tarık Çetin.
 
-This library is basically a convinience wrapper around this StackOverflow answer: https://stackoverflow.com/a/54894488/6301627
+This library is basically a convinience wrapper around [this StackOverflow answer](https://stackoverflow.com/a/54894488/6301627) by [pale bone](https://stackoverflow.com/users/7613702/pale-bone).
