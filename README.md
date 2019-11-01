@@ -23,7 +23,9 @@ public class TestManifestHook : AndroidManifestHooker
 
 The code above will result in this:
 ```xml
-<application ... android:foo="bar">
+...
+    <application ... android:foo="bar">
+...
 ```
 
 You need to create an asmdef file with:
